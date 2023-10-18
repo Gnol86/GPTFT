@@ -6,15 +6,21 @@ const DataExemple = () => {
 
     return (
         <div className="mt-10 flex flex-col gap-5 items-center">
+            <a
+                className="text-sky-800 hover:underline hover:text-sky-600"
+                href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates/"
+            >
+                Guide to Fine-tuning OpenAI GPT-3.5 Turbo
+            </a>
             <h3 className="text-xl font-bold text-center w-full">
                 Data exemple for 2 conversations
             </h3>
             <div className="w-full flex flex-row gap-5 justify-center">
                 <button
                     className={clsx(
-                        "text-white font-bold rounded-md p-3 w-36",
+                        "font-bold rounded-md p-3 w-36",
                         !jsonl
-                            ? "bg-slate-600"
+                            ? "bg-slate-600 text-white"
                             : "bg-white text-slate-600 border border-slate-600 hover:bg-slate-200"
                     )}
                     onClick={() => {
@@ -25,9 +31,9 @@ const DataExemple = () => {
                 </button>
                 <button
                     className={clsx(
-                        "text-white font-bold rounded-md p-3 w-36",
+                        "font-bold rounded-md p-3 w-36",
                         jsonl
-                            ? "bg-slate-600"
+                            ? "bg-slate-600 text-white"
                             : "bg-white text-slate-600 border border-slate-600 hover:bg-slate-200"
                     )}
                     onClick={() => {
