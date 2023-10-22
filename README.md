@@ -1,5 +1,7 @@
 # GPT Fine tuning Data tool
 
+Use it : http://gptft.ytek8232.odns.fr
+
 GPTFT is a tool that allows generating training data for the fine-tuning of GPT.
 
 ![image](https://github.com/Gnol86/GPTFT/assets/24519929/63dd3dde-1789-4a15-9a7b-f4504996bab9)
